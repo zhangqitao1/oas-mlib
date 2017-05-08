@@ -1,0 +1,19 @@
+{
+    "name": "oas/mlib",
+    "description": "oas-mlib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qitao.zhang",
+            "email": "luguoit@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oas\\Mlib\\": "src/"
+        }
+    }
+}
