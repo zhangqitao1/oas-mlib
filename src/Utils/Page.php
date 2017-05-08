@@ -1,5 +1,6 @@
 <?php
 
+namespace Oas\Mlib\Utils\Page;
 /**
  * Created by PhpStorm.
  * User: og
@@ -9,4 +10,8 @@
 class Page
 {
 
+    public static function getPages(){
+
+        return [1,2,3];
+    }
 }
