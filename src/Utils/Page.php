@@ -1,6 +1,9 @@
 <?php
 
-namespace Oas\Mlib\Utils\Page;
+namespace Oas\Mlib\Utils;
+
+use Symfony\Component\HttpFoundation\Request;
+
 /**
  * Created by PhpStorm.
  * User: og
@@ -10,7 +13,7 @@ namespace Oas\Mlib\Utils\Page;
 class Page
 {
 
-    public static function getPages(){
+    public static function getPages(Request $request){
 
         return [1,2,3];
     }
